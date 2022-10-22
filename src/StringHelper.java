@@ -1,4 +1,5 @@
 public class StringHelper {
+    // Retorna a unidade de medida da temperatura
     public String checkUnitOfMeasure(char unit){
         return switch (unit){
             case 'C' -> "ºC";
@@ -8,6 +9,7 @@ public class StringHelper {
         };
     }
 
+    // Retorna o nome da unidade de medida da temperatura
     public String checkUnitOfMeasureName(char unit){
         return switch (unit){
             case 'C' -> "Celcius";
